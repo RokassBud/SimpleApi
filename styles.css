@@ -1,0 +1,15 @@
+body{
+    background-image: url("background.jpg");
+}
+.myDiv {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -300px;
+    text-align: center;
+    border-style: double;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
