@@ -14,7 +14,7 @@ app = FastAPI()
 templates = Jinja2Templates(directory="htmldirectory")
 
 
-@app.get("/home", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def write_home(request: Request):
     return templates.TemplateResponse("main.html", {"request": request})
 
