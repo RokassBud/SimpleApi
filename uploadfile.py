@@ -3,6 +3,7 @@ from fastapi import FastAPI, File, UploadFile, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from app2 import *
+import uvicorn
 
 # python -m uvicorn uploadfile:app
 
