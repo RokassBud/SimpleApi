@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Roko biudžeto atvaizdavimas</title>
+	<style>
+		body{
+			background: rgb(36,0,22);
+			background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(9,121,92,1) 35%, rgba(147,0,255,1) 100%);
+	}
+	.myDiv {
+		height: 100px;
+		width: 500px;
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		margin-top: -100px;
+		margin-left: -300px;
+		text-align: center;
+		border-style: double;
+		font-family: "Lucida Console", "Courier New", monospace;
+	}
+	</style>
+</head>
+<body>
+ 	<div class="myDiv">
+		<p> Įkelti failą .wav formatu</p>
+		<form action="/upload" method = 'post' enctype="multipart/form-data">
+			<input type="file" name="file">
+			<input type="submit">
+		</form>
+	</div>
+</body>
+</html>
